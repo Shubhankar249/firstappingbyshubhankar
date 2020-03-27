@@ -3,8 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Let's see</title>
+    <script src="jquery.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <h2>Hullalo</h2>
+    <div id="musicBox">
+        <button onclick="play(1)">Play 1</button>
+        <button onclick="play(2)">Play 2</button>
+        <button onclick="play(3)">Play 3</button>
+    </div>
+
+    <audio id="a1" src="yeh-bata-de-mujhe-zindagi.mp3"></audio>
+    <audio id="a2" src="yun-zindagi-ki-raah.mp3"></audio>
+    <audio id="a3" src="zakham-jo-aap-ki-innayat.mp3"></audio>
 </body>
 </html>
